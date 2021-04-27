@@ -6,8 +6,7 @@ class Job
   String title = ""
   String description = ""
   String url = ""
-  #DateTime posting_date = DateTime.new
-  Number salary = 0
+
 end
 
 def scraper
@@ -20,20 +19,7 @@ def scraper
   job_posting_dates = parsed_page.css("font")
   job_urls = parsed_page.css("a.ficha")
 
+  byebug
 end
 
-def method_name
-  
-end
-
-job1 = Job.new
-job2 = Job.new
-job3 = Job.new
-job4 = Job.new
-job5 = Job.new
-job6 = Job.new
-job7 = Job.new
-job8 = Job.new
-job9 = Job.new
-job10 = Job.new
 scraper

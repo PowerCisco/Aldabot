@@ -12,3 +12,4 @@ parsed_page.css('font')[0].children.text to [10] = dates
         could be [7] on this page.
 
 parsed_page.css('a.ficha')[0].attribute("href").value to [9] = links for each job listing.
+
